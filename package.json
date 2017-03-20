@@ -1,6 +1,6 @@
 {
-  "name": "@synisys/cafeteria",
-  "description": "Synergy Smart Bussiness Center Cafeteria",
+  "name": "soso-partner",
+  "description": "Partner Application",
   "version": "1.0.0",
   "main": "main.js",
   "typings": "main",

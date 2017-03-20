@@ -7,15 +7,15 @@ import {HttpModule} from "@angular/http";
 import {FormsModule} from "@angular/forms";
 import {AppComponent}  from './app.component';
 import {routing, appRoutingProviders} from "./app.routes";
-import {CafeteriaModule} from "./cafeteria/cafeteria.module";
 import {DataServiceImpl} from "./shared/impl/data.service.impl";
 import {SerializationService} from "./shared/impl/serialization.service";
+import {RegistrationModule} from "./registration/registration.module";
 
 @NgModule({
     imports: [
         BrowserModule,
         FormsModule,
-        CafeteriaModule,
+        RegistrationModule,
         HttpModule,
         routing,
     ],
