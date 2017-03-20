@@ -1,9 +1,9 @@
 /**
- * Created by Anushavan on 3/17/17.
+ * Created by Anushavan on 3/20/17.
  */
 import {RouterModule, Routes} from "@angular/router";
 import {ModuleWithProviders} from "@angular/core";
-import {RegistrationComponent} from "./registration/registration.component";
+import {RegistrationComponent} from "component/registration/registration.component";
 
  const appRoutes: Routes = [
 
